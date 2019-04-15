@@ -22,6 +22,9 @@ func GetSubSlice(start int, slice []int) []int {
 	return slice[start:len(slice)]
 }
 
+func AnotherGetSubSlice(start int, slice []int) []int {
+}
+
 func Do() error {
 	err := Export("Hello")
 	if err != nil {
