@@ -30,6 +30,7 @@ func Do() error {
 	return nil
 }
 
+// Another
 func Another() {
 	fmt.Println("Another")
 }
